@@ -10,7 +10,7 @@ public class FirstFitAlgorithm {
         int totalProcesses = processSizes.length;
 
         
-		for (int size : blockSizes) {
+	for (int size : blockSizes) {
             if (size < 0) {
                 System.out.println("Error: Block size cannot be negative.");
                 return;
